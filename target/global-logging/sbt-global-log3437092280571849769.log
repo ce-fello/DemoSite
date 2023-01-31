@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Azul Systems, Inc. Java 13.0.11)
+[debug] Load.defaultLoad until apply took 121.9252ms
+[debug]           Load.loadUnit: plugins took 122.4667ms
+[debug]           Load.loadUnit: defsScala took 0.2445ms
+[debug] [Loading] Scanning directory C:\Users\75524\IdeaProjects\Queta-Sec\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\75524\IdeaProjects\Queta-Sec\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 19.0664 ms
+[debug]               Load.resolveProject(queta-sec-build) took 43.9859ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id queta-sec-build, base: C:\Users\75524\IdeaProjects\Queta-Sec\project, plugins: List(<none>))) took 93.0763ms
+[debug] [Loading] Done in C:\Users\75524\IdeaProjects\Queta-Sec\project, returning: (queta-sec-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 116.1581ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.241ms
+[debug]         Load.loadUnit(file:/C:/Users/75524/IdeaProjects/Queta-Sec/project/, ...) took 244.417ms
+[debug]       Load.apply: load took 416.8036ms
+[debug]       Load.apply: resolveProjects took 5.1453ms
+[debug]       Load.apply: finalTransforms took 59.9248ms
+[debug]       Load.apply: config.delegates took 8.3055ms
+[debug]       Load.apply: Def.make(settings)... took 465.273ms
+[debug]       Load.apply: structureIndex took 106.7934ms
+[debug]       Load.apply: mkStreams took 2.5174ms
+[info] loading project definition from C:\Users\75524\IdeaProjects\Queta-Sec\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2075.1004ms
+[debug]     Load.loadUnit: defsScala took 0.0054ms
+[debug] [Loading] Scanning directory C:\Users\75524\IdeaProjects\Queta-Sec
+[debug]       Load.loadUnit: mkEval took 6.1389ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\75524\IdeaProjects\Queta-Sec, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.4923 ms
+[info] loading settings for project queta-sec from build.sbt ...
+[debug]         Load.resolveProject(queta-sec) took 2.6632ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id queta-sec, base: C:\Users\75524\IdeaProjects\Queta-Sec, plugins: List(<none>))) took 4.621ms
+[debug] [Loading] Done in C:\Users\75524\IdeaProjects\Queta-Sec, returning: (queta-sec)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1957.3799ms
+[debug]     Load.loadUnit: cleanEvalClasses took 13.9918ms
+[debug]   Load.loadUnit(file:/C:/Users/75524/IdeaProjects/Queta-Sec/, ...) took 4048.2481ms
+[debug] Load.apply: load took 4066.9408ms
+[debug] Load.apply: resolveProjects took 0.1333ms
+[debug] Load.apply: finalTransforms took 10.5744ms
+[debug] Load.apply: config.delegates took 0.326ms
+[debug] Load.apply: Def.make(settings)... took 133.6479ms
+[debug] Load.apply: structureIndex took 20.7777ms
+[debug] Load.apply: mkStreams took 0.0025ms
+[info] set current project to Queta-Sec (in build file:/C:/Users/75524/IdeaProjects/Queta-Sec/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-159c95e8e3f372d714af
+[debug] Writing bsp connection file
+[info] started sbt server
