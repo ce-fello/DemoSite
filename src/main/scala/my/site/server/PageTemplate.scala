@@ -1,19 +1,13 @@
 package my.site.server
 
+import scala.io.Source
+
 
 object PageTemplate {
-  def genPage(content: String): String
-  =
-  s"""
-     |<!DOCTYPE html>
-     |<html lang="en">
-     |<head>
-     |    <meta charset="UTF-8">
-     |</head>
-     |<body>
-     |      LOL it works
-     |      See some content: $content
-     |</body>
-     |</html>
-     |""".stripMargin
+  def genPage(content: String): String = {
+    val fileName = "src/main/scala/my/site/server/Frontend/MainPage.html"
+    val htmlContent = Source.fromFile(fileName).getLines().mkString
+    val a = htmlContent.stripMargin
+    a
+  }
 }

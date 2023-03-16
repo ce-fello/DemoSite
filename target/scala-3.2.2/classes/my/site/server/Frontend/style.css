@@ -2,23 +2,36 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 100%;
+    margin: auto;
 }
 
 .Header {
+    text-align: start;
+    display:flex;
     flex-grow: 1;
-    height: 30%;
-    background-color: aqua;
+    height: 100px;
+    flex-direction: row;
 }
 
 .Content {
+    text-align: center;
     flex-grow: 1;
-    height: 50%;
-    background-color: blueviolet;
+    height: 100px;
 }
 
 .Footer {
+    text-align: center;
     flex-grow: 1;
-    height: 20%;
-    background-color: brown;
+    height: 100px;
+}
+
+.PaginationText {
+    text-align: center;
+    color:blue;
+    width: 10%;
+    white-space: nowrap;
+}
+
+.PaginationText:hover{
+    color:cadetblue;
 }

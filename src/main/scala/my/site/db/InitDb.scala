@@ -52,6 +52,14 @@ object InitDb {
           duration bigint not null
           );
        """.execute.apply()
+
+    sql"""
+         create table if not exists Relations(
+         id serial not null primary key,
+         userId int,
+         bundleId int
+         );
+       """.execute.apply()
 //           alter table Products_types add primary key products_types_product_type_id_primary(product_type_id);
 
 //    sql"""
